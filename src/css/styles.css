@@ -9,20 +9,429 @@ fecha: Abril 9 de 2024 */
 
 
 /* Creamos las variables que utilizaremos en el proyecto */
-:root{
+:root {
     --azul_oscuro: #181E4B;
     --azul_claro: #6b5cff;
     --blanco: #F9FAFC;
 }
 
+.Whatsapp {
+    position: static;
+
+}
+
+
 /* Formateamos los estilos predeterminados de los compiladores y damos estilos generales a la página */
 
-*{
+* {
     font-family: "Ubuntu", sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
 
+}
+
+/* Estilos del header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: var(--blanco);
+    width: 100%;
+
+
+
+}
+
+/* Estilos del Titulo */
+
+.header article {
+    display: flex;
+    gap: 5%;
+    padding: 1%;
+}
+
+.logo span {
+    color: var(--azul_claro);
+}
+
+.logo {
+    font-style: oblique;
+    color: var(--azul_oscuro);
+    display: flex;
+    font-size: 70px;
+}
+
+.imagenLogo {
+    width: 5%;
+}
+
+.navegador {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 2%;
+    flex-direction: row;
+    width: 45%;
+    align-items: center;
+}
+
+.navegador span {
+    display: flex;
+    gap: 10px;
+    width: 101%;
+    color: var();
+}
+
+#labelnav {
+    color: var(--azul_oscuro);
+}
+
+.navboton {
+    border: 12px solid var(--azul_claro);
+    background-color: var(--azul_claro);
+    color: var(--blanco);
+    text-align: center;
+    border-radius: 40px;
+}
+
+main {
+    background-color: var(--blanco);
+}
+
+
+/* Estilos generales de las imagenes */
+
+.imagenes {
+    width: 100%;
+    padding: 5%;
+}
+
+.imagenes img {
+    width: 100%;
+    border-radius: 80px;
+    padding: 50px;
+}
+
+
+/* Estilos de la primera seccion */
+.seccion1 {
+    display: flex;
+}
+
+
+.formulario1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 7%;
+    width: 85%;
+}
+
+.formulario1 h2 {
+    color: var(--azul_oscuro);
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    font-style: oblique;
+}
+
+#form1 {
+    display: flex;
+    width: 50%;
+    border: 0px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+#form1 button {
+    width: 60%;
+    color: var(--blanco);
+    background-color: var(--azul_claro);
+    border-radius: 40px;
+    border: 20px solid var(--azul_claro);
+    font-size: 17px;
+}
+
+
+#ubicacion,
+#centro {
+    width: 100%;
+    border: 1px solid var(--azul_claro);
+    border-radius: 8px;
+    padding: 12px;
+    background-color: var(--blanco);
+    font-size: 15px;
+}
+
+#centro {
+    color: gray;
     
+}
+
+/* Estilos de la segunda seccion */
+.seccion2{
+    margin-top: -13%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.frase{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 1%;
+    width: 85%;
+}
+
+.frase h2{
+    color: var(--azul_oscuro);
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    font-style: oblique;
+}
+
+.frase p{
+    font-style: oblique;
+    font-weight:700;
+}
+
+/* Estilos de la seccion 3 */
+.seccion3{
+    margin-top: -13%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.legendacontabla{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 1%;
+    width: 85%;
+}
+
+.legendacontabla h2{
+    color: var(--azul_oscuro);
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    font-style: oblique;
+}
+
+.legendacontabla p{
+    font-style: oblique;
+    font-weight:400;
+    text-align: center;
+    width: 45%;
+}
+
+.tabla{
+    width: 55%;
+    text-align: center;
+}
+
+.titulostabla{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 5px;
+}
+
+/* Estilos de la seccion 4 */
+
+.seccion4 h3{
+    color: var(--azul_oscuro);
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+    font-style: oblique;
+}
+
+.imagencentral {
+    width: 100%;
+    padding: 0% 15%;
+}
+
+.imagencentral img {
+    width: 100%;
+    border-radius: 80px;
+    padding: 50px;
+}
+
+.requisitos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0% 10%;
+}
+
+
+.condiciones span{
+    color: var(--azul_claro);
+    display: flex;
+    justify-content: center;
+    justify-items:center ;
+    margin-bottom: 4px;
+    font-size: 50px
+}
+
+.condiciones h4{
+    text-align: center;
+    margin-bottom: 4px;
+    font-size: 30px
+}
+
+.condiciones p{
+    text-align: center;
+    color: gray;
+    padding-bottom: 5px;
+}
+
+/* Estilos sección 5 */
+
+.seccion5{
+    margin-top: 5%;
+}
+.seccion5 h3{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 2%;
+}
+
+.form2{
+    display: flex;
+    width: 100%;
+    border: 0px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.form2 input{
+    width: 50%;
+    border: 1px solid var(--azul_claro);
+    border-radius: 8px;
+    padding: 12px;
+    background-color: var(--blanco);
+    font-size: 15px;
+}
+
+#centro2, #perfil, #comentarios{
+    width: 50%;
+    border: 1px solid var(--azul_claro);
+    border-radius: 8px;
+    padding: 12px;
+    background-color: var(--blanco);
+    font-size: 15px;
+}
+
+.boton2{
+    width: 50%;
+    border: 0px solid var(--azul_claro);
+    border-radius: 8px;
+    padding: 12px;
+    background-color: var(--blanco);
+    font-size: 15px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+.form2 button{
+    width: 80%;
+    background-color: var(--azul_claro);
+    border: 1px solid var(--azul_claro);
+    border-radius: 20px;
+    padding: 12px;
+   color: var(--blanco);
+    font-size: 15px;
+}
+
+/* Estilos de la seccion 6 */
+
+.seccion6{
+    margin-top: 5%;
+    padding: 5%;
+}
+
+.seccion6 h3{
+    color: var(--azul_oscuro);
+    text-align: center;
+    width: 100%;
+    font-size: 60px;
+    font-style: oblique;
+}
+
+.multimedia{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap:15%;
+}
+
+.multimedia h4{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 2%;
+}
+
+.multimedia iframe{
+    width:700px;
+    height:450px;
+}
+
+/* Estilos del footer */
+
+footer{
+    background-color: var(--azul_claro);
+   
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+.socialmedia{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2%;
+}
+.socialmedia span{
+    text-align: center;
+    font-size: 50px;
+    color: var(--blanco);
+}
+
+.derechos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5%;
+}
+
+.derechos p{
+    color: var(--blanco);
+}
+
+.derechos a{
+    color: black;
 }
