@@ -15,11 +15,6 @@ fecha: Abril 9 de 2024 */
     --blanco: #F9FAFC;
 }
 
-.Whatsapp {
-    position: static;
-
-}
-
 
 /* Formateamos los estilos predeterminados de los compiladores y damos estilos generales a la página */
 
@@ -29,7 +24,6 @@ fecha: Abril 9 de 2024 */
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-
 }
 
 /* Estilos del header */
@@ -37,12 +31,9 @@ fecha: Abril 9 de 2024 */
 .header {
     display: flex;
     justify-content: space-between;
-
+    position: fixed;
     background-color: var(--blanco);
     width: 100%;
-
-
-
 }
 
 /* Estilos del Titulo */
@@ -159,6 +150,9 @@ main {
     font-size: 17px;
 }
 
+th{
+    border-bottom: 3px solid var(--azul_claro)
+}
 
 #ubicacion,
 #centro {
@@ -402,9 +396,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    
-    
+    flex-wrap: wrap;   
 }
 
 .socialmedia{
@@ -434,4 +426,17 @@ footer{
 
 .derechos a{
     color: black;
+}
+/* Estilos del icono de Whatsapp */
+
+.whatsapp{
+    color: var(--azul_oscuro);
+    font-size: 90px;
+    position: sticky;
+    bottom:5%;
+    left: 95%;
+}
+#imgwts{
+    width: 5%;
+    border-radius: 50px;
 }
