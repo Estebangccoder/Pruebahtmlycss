@@ -1,11 +1,230 @@
+<!-- 
+Nombre Completo: Edson Esteban Garcia Cuesta
+Clan: DELL
+fecha: Abril 9 de 2024
+-->
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
+    <!-- Etiquetas meta para optimizacion de SEO -->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="./public/icons/favicon.ico" type="image/x-icon">
+
+    <!-- Creamos la conexión  con css    -->
+
+    <link rel="stylesheet" href="/src/css/styles.css">
+
+
+    <title>TransRiwi</title>
 </head>
+
 <body>
-    
+    <a href="https://wa.link/xjxsvr"></a>
+    <!-- Creamos la estructura del header -->
+    <header class="header">
+        <img class="imagenLogo" src="./public/icons/menor.webp" alt="menor">
+        <h1>TransRiwi</h1><img class="imagenLogo" src="./public/icons/mayor.webp" alt="menor">
+        <nav>
+            <a href="#seccionrequisitos"><span><i class="bi bi-card-checklist"></i>Requisitos</span></a>
+            <a href="#seccionnosotros"><span><i class="bi bi-geo"></i>Acerca de Nosotros</span></a>
+            <a href="#seccionregistro"><span><i class="bi bi-envelope-fill"></i>Contáctanos</span></a>
+            <a href="tel:+57301 732 53 27"><span><i class="bi bi-telephone-fill"></span></i>Llámanos</a>
+            <a href=""><span>Iniciar Sesión</span></a>
+            <a href=""><span>Registrarte</span></a>
+        </nav>
+    </header>
+
+    <!-- Estructura del cuerpo de la pagina web -->
+
+
+    <main>
+
+        <!-- Dividimos la estructura en 6 Secciones     -->
+
+        <!-- Estructura de la primera seccion consta de dos articles -->
+
+        <section class="seccion1" id="seccion1">
+            <article class="formulario1">
+                <h2>Transportate desde cualquier lugar hacia tu centro de entrenamiento</h2>
+                <fieldset id="form1">
+                    <input type="text" name="ubicacion" id="ubicacion" value="Ingresa tu ubicación" required>
+                    <select name="centro" id="centro" required>
+                        <option disabled selected>Selecciona tu centro de formación</option>
+                        <option value="Medellín">Medellín</option>
+                        <option value="Barranquilla">Barranquilla</option>
+                        <option value="Cali">Cali</option>
+                        <option value="Bucaramanga">Bucaramanga</option>
+                    </select>
+                    <button type="submit"><span><i class="bi bi-send-fill"></i>Solicitar Vehiculo</span></button>
+                </fieldset>
+            </article>
+            <article class="imagenes">
+                <img src="./public/images/cuatro_pasajeros.webp" alt="pasajeros">
+            </article>
+        </section>
+
+        <!-- Estructura de la segunda seccion consta de dos articles -->
+
+        <section class="seccion2" id="seccion2">
+            <article class="imagenes">
+                <img src="./public/images/conductora.webp" alt="conductora">
+            </article>
+            <article class="frase">
+                <h2>Registrate cuando quieras y genera las ganancias que necesites</h2>
+                <p>¡Únete hoy y abre las puertas a tus oportunidades financieras!</p>
+            </article>
+        </section>
+
+        <!-- Estructura de la tercera seccion consta de dos articles -->
+
+
+        <section class="seccion3" id="seccion3">
+            <article class="legendacontabla">
+                <h3>Viaja con amigos</h3>
+                <p>¡Viaja con amigos y crea recuerdos inolvidables! observa la lista de vehiculos disponibles en cada
+                    una de nuestras sedes</p>
+                <table class="tabla">
+                    <thead>
+                        <tr>
+                            <th><span><i class="bi bi-buildings"></i>Sede</span></th>
+                            <th><span><i class="bi bi-car-front-fill"></i>Vehiculos</span></th>
+                            <th><span><i class="bi bi-bicycle"></i>Motos</span></th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Riwi Medellín</td>
+                            <td>15</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Riwi Bucaramanga</td>
+                            <td>10</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>Riwi Barranquilla</td>
+                            <td>20</td>
+                            <td>180</td>
+                        </tr>
+                        <tr>
+                            <td>Riwi Cali</td>
+                            <td>8</td>
+                            <td>200</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </article>
+            <article class="imagenes">
+                <img src="./public/images/motociclistas.webp" alt="motociclistas">
+            </article>
+        </section>
+
+        <!-- Estructura de la cuarta seccion -->
+
+        <section class="seccion4" id="seccionrequisitos">
+            <h2>¿Qué necesito para ser un conductor riwi?</h2>
+            <article class="imagenes">
+                <img src="./public/images/conductores.webp" alt="conductores">
+            </article>
+            <article class="requisitos">
+                <div>
+                    <span><i class="bi bi-star-fill"></i></span>
+                    <h4>Requisitos</h4>
+                    <p>Ser mayor de 18 años</p>
+                    <p>Verficacion de antecedentes</p>
+                    <p>Ser coder de riwi</p>
+
+                    <div>
+                        <span><i class="bi bi-file-earmark-text-fill"></i></span>
+                        <h4>Documentos</h4>
+                        <p>Licencia de conducción vigente</p>
+                        <p>SOAT vigente</p>
+                        <p>Tarjeta de propiedad del vehiculo actual</p>
+                    </div>
+                    <div>
+                        <span><i class="bi bi-calendar-fill"></i></span>
+                        <h4>Empezar es muy fácil</h4>
+                        <p>Regístrate</p>
+                        <p>Sube tus documentos</p>
+                        <p>Sal a manejar</p>
+                    </div>
+            </article>
+        </section>
+
+        <!-- Estructura de la quinta seccion -->
+
+        <section class="seccion5" id="seccionregistro">
+            <h3>Registrate cuando quieras</h3>
+            <article class="formulario2">
+                <fieldset id="form1">
+                    <input type="text" name="nombre" id="nombre" value="Ingresa tu nombre" required>
+                    <input type="email" name="correo" id="correo" value="Ingresa tu correo" required>
+                    <input type="tel" name="telefono" id="telefono" value="Ingresa tu nombre" required>
+                    <select name="centro" id="centro" required>
+                        <option disabled selected>Selecciona tu centro de formación</option>
+                        <option value="Medellín">Medellín</option>
+                        <option value="Barranquilla">Barranquilla</option>
+                        <option value="Cali">Cali</option>
+                        <option value="Bucaramanga">Bucaramanga</option>
+                    </select>
+                    <select name="perfil" id="perfil" required>
+                        <option disabled selected>Selecciona a tu perfil</option>
+                        <option value="Conductor">Conductor</option>
+                        <option value="Usuario">Usuario</option>
+                    </select>
+                    <textarea name="comentarios" id="comentarios" cols="30" rows="10">comentarios</textarea>
+                    <button type="submit"><span>Registrate</span></button>
+                </fieldset>
+            </article>
+        </section>
+
+        <!-- Estructura de la quinta seccion dividida en dos articles -->
+        <section class="seccion6" id="seccionnosotros">
+            <article class="multimedia">
+                <h4>¿Quienes somos?</h4>
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/7CFyOSd-m3o?si=-wlBiNzpdBGOl9Ma"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </article>
+            <article class="multimedia">
+                <h4>¿Quienes somos?</h4>
+                <div class="mapa">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.3378180659233!2d-75.58848581549591!3d6.2191063105765085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44293f0e114eef%3A0x99610cdd44c7c081!2sRiwi%20-%20Be%20a%20Coder!5e0!3m2!1sen!2sco!4v1712668656733!5m2!1sen!2sco"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <article class="socialmedia">
+            <span><i class="bi bi-facebook"></i></span>
+            <span><i class="bi bi-instagram"></i></span>
+            <span><i class="bi bi-linkedin"></i></span>
+            <span><i class="bi bi-twitter-x"></i></span>
+        </article>
+        <article class="derechos">
+            <p><i class="bi bi-c-circle"></i> 2024</p>
+            <a href="https://riwi.io/">Riwi.io</a>
+            <p>Todos los derechos reservados</p>
+
+        </article>
+    </footer>
+
+
 </body>
+
 </html>
